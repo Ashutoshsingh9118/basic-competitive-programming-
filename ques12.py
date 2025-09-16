@@ -1,5 +1,11 @@
-a = int(input("enter a: "))
-b = int(input("enter b: "))
+list = [2,4,6,8,10,12,14,16,18,20]
 
-output = a**b
-print(output)
+print(list[:])
+print(list[::])
+print(list[2:5])
+print(list[2:])
+print(list[2::])
+print(list[:2])
+print(list[::2])
+print(list[1::2])
+print(list[2:10:2])
